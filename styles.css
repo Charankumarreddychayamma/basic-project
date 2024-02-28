@@ -1,62 +1,149 @@
-header{
-
-    display: grid;
-    grid-template-columns: 15% 85%;
-    background-color :#423F3E;
-
+.navbar{
+    display:flex;    
 }
-header ul{
-    display: grid;
-    grid-template-columns: repeat(6,1fr);
+.firstpart{
+    
+padding: 0% 18% 0% 18%;
 }
-img{
+
+ .navbar div{
+    flex:3;
+}
+.navlist {
+    display:flex;
+}
+ a{
+    text-decoration: none;
+    color: black;
+
+   }
+a:hover{
+    color: orange;
+}
+.navlist li{
+    list-style-type: none;
+    padding: 10px;
+   }
+.icons{
+    display: flex;
+   }
+.icons li{
+    list-style-type: none;
+    padding: 10px;
+ }
+ .moreinfo{
+    font-size: small;
+    margin-left: 30px;
+    color: orange;
+ }
+ .slider{
+    display: flex;
+    flex: 1;
+}
+.sliderimg{
     width: 100%;
+    
 }
-footer{
+.addcart{
+    background-color: orange;
+    padding: 10px 15px;
+    font-size: 10px; 
+    color: aliceblue;
+    border-color: aliceblue;
+}   
+.productdescription {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+.stool{
+    display: grid;
+    grid-template-columns:35% 65%;
+}
+.collection {
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    align-items: center;
+    justify-items: center;
+    margin-top:5%;
+}    
+.sofabg{
+    background-color: black;
+    height: 400px;
+    opacity: 0.7;
+    width: 34%;
+}
+.main1{
+    background-image: url("/imgs/collection/sofa-collection-banner.jpg");
+    position: relative;
+    background-size:100% ;
+    
+    
+}
+.unlimitedsofa{
+    width: 35%;
+    color: aliceblue;
+    position: absolute;
+    top: 23%;
+    left: 20%;
+    
+}
+.featuredproduct{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    background-color: black;
-    color: white;
-    
-}
-footer :first-child p{
-    color:#727171 ;
-    text-align: justify;
-    font-family: 'popins', sans-serif;
-}
-footer div{
-    margin: 20px;
-}
-a{
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-    font-size: 17px;
-    
-}
-a:hover{
-    color: orangered;
-}
-li{
-    list-style-type: none;
-    
-}
-h2{
-    color: grey;
+
 }
 
-
-.container ul li{
-    padding: 10px;
-}
-
-.Main{
+.latestblog{
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
-.Main section {
-border: 1px dotted red;
-margin: 10px;
-padding : 20px;
-padding-left: 70px;
+.clients{
+    background-color: rgba(224, 227, 232, 0.621);
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-items: center;
+    padding: 50px 247px 50px 247px;
+}
+    
+.textcenter{
+    text-align: center;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+}
+.media{
+    background-color: rgba(224, 227, 232, 0.621);
+}
+.media_icons{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-items: center;
+    padding: 34px 625px 10px 625px ;
+}
+.copyright{
+    text-align: center;
+    padding-bottom: 25px;
+}
+    
+
+.email{
+    position: relative;
+    
+}
+.emailbox{
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    height: 30px;
+}
+.mail{
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    
+}.footer ul li{
+    list-style-type: none;
+    padding: 5px;
 }
